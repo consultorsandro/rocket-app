@@ -11,12 +11,12 @@ use rocket::request::Request;
 
 // Estrutura para armazenar as credenciais
 #[derive(Debug)]
-pub struct BasicAuth {
+pub struct BasicAuth { // Class 9
     pub username: String,
     pub password: String,
 }
 
-// Constantes para as credenciais
+// Constantes para as credenciais ** correção de IA **
 const VALID_USERNAME: &str = "meuapp";
 const VALID_PASSWORD: &str = "123456";
 
