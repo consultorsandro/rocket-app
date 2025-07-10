@@ -1,0 +1,15 @@
+[package]
+name = "rocket-app"
+version = "0.1.0"
+edition = "2024"
+authors = ["Seu Nome <consultorsandro@hotmail.com>"]
+description = "Uma aplicação web usando Rocket framework"
+license = "MIT"
+
+[dependencies]
+# Web framework
+rocket = { version = "0.5.0-rc.3", features = ["json"] }
+
+# Serialização
+serde = { version = "1.0.183", features = ["derive"] }
+serde_json = "1.0.104"
